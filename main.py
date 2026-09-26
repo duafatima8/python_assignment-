@@ -50,7 +50,7 @@ tfahent=(tcelsius * 9/5) + 32
 print(tfahent)
 
                                                         # 6 positive negative
-tnum=complex(input("Enter the number please "))
+tnum=int(input("Enter the number please "))
 if(tnum>=0):
     print("this is positive number")
 elif(tnum<=0):
@@ -177,7 +177,7 @@ else:
                                                   #20  CAR checker
 cars = ["BMW", "porsche","suzuki", "toyota","Rolls roys"]
 yourcar = str(input("Enter what car you want?"))
-if (yourcar in cars)
+if (yourcar in cars):
   print("yeah, this car is availaibe")
 else:
   print("Sorry,this is'nt available.")
@@ -198,7 +198,7 @@ numbers = set(numbers)
 print(numbers)
 
                                             #23  tuple display
-details = ("Ali", "18", "digital marketing", "459")
+details = ("Sam", "18", "digital marketing", "459")
 print(f"My name is {details[0]}. I am {details[1]}years old and I'm doing {details[2]} and i have gain {details[3]} marks ")
 
                                               #  vowel checker
